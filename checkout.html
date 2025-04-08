@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Realme 9 Pro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Realme Shop</div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="checkout">
+            <h1>Checkout</h1>
+            
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <div class="product-details">
+                    <img src="realme-9-pro.jpg" alt="Realme 9 Pro" class="checkout-image">
+                    <div class="product-info">
+                        <h3>Realme 9 Pro</h3>
+                        <p>6GB RAM + 128GB Storage</p>
+                        <div class="price">₹19,999</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shipping-form">
+                <h2>Shipping Information</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Shipping Address</label>
+                        <textarea id="address" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="pincode">Pincode</label>
+                        <input type="text" id="pincode" required>
+                    </div>
+                    <button type="submit" class="place-order-button">Place Order</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Realme Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
